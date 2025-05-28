@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>exemple</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+  <header>
+    <h1>Bonjour, je suis Marjorie</h1>
+    <nav>
+        <ul>
+          <li><a href="#apropos">À propos</a></li>
+          <li><a href="#projets">Projets</a></li>
+      
+          <li class="dropdown">
+            <a href="#competences">Compétences ▾</a>
+            <ul class="submenu">
+              <li><a href="Concevoir.html">Concevoir</a></li>
+              <li><a href="Vérifier.html">Vérifier</a></li>
+              <li><a href="Maintenir.html">Maintenir</a></li>
+              <li><a href="Implanter.html">Installer</a></li>
+            </ul>
+          </li>
+      
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      
+  </header>
+
+<p>je rajoute qqchose, shit c'est compliqué</p>  
+
+  <section id="apropos">
+    <h2>À propos de moi</h2>
+    <p>Je suis actuellement en formation BUT Génie Electrique et Informatique Industrielle.
+      J'apprends chaque jour à maîtriser les technologies du web...</p>
+
+  
+    <div class="moi">
+      <!-- Colonne 1 -->
+      <section class="colonne">
+        <h2>Ma formation</h2>
+        <p>Je suis actuellement en formation BUT Génie Electrique et Informatique Industrielle.</p>
+        <img src="images/photo_MK.jpg" alt="Image moi"> 
+        <a href="https://iut.univ-lyon1.fr/formation/but/but-genie-electrique-et-informatique-industrielle" target="_blank">Voir plus</a>
+      </section>
+  
+      <!-- Colonne 2 -->
+      
+      <section class="colonne">
+        <h2>Marjorie KOEHL</h2>
+        <img src="images/photo_MK.jpg" alt="Image moi"> 
+      </section>
+    </div>
+  
+    <!-- Bouton pour télécharger le CV -->
+    <div class="center-btn">
+      <a href="mon-cv.pdf" class="download-btn" download>
+        <i class="fas fa-file-download" style="margin-right: 8px;"></i>Télécharger mon CV
+      </a>
+    </div>
+  </section>
+  
+
+
+
+
+  <section id="projets">
+    <h2>Les Apprentissages Critiques</h2>
+    <!-- Cartes de projets ici -->
+    <div class="projets-container">
+        <div class="carte-projet">
+          <img src="images/projet1.jpg" alt="Image du Projet 1">
+          <h3>CONCEVOIR</h3>
+          <p>Petit résumé du projet...</p>
+          <a href="projet1.html" target="_blank">Voir plus</a>
+        </div>
+        <!-- Tu peux copier coller la carte autant de fois que tu veux -->
+      </div>
+
+      <div class="projets-container">
+        <div class="carte-projet">
+          <img src="images/projet2.jpg" alt="Image du Projet 1">
+          <h3>VERIFIER</h3>
+          <p>Petit résumé du projet...</p>
+          <a href="projet1.html" >Voir plus</a>
+        </div>
+        <!-- Tu peux copier coller la carte autant de fois que tu veux -->
+      </div>
+
+      <div class="projets-container">
+        <div class="carte-projet">
+          <img src="images/projet3.jpg" alt="Image du Projet 1">
+          <h3>MAINTENIR</h3>
+          <p>Petit résumé du projet...</p>
+          <a href="#" target="_blank">Voir plus</a>
+        </div>
+        <!-- Tu peux copier coller la carte autant de fois que tu veux -->
+      </div>
+
+      <div class="projets-container">
+        <div class="carte-projet">
+          <img src="images/projet3.jpg" alt="Image du Projet 1">
+          <h3>IMPLANTER</h3>
+          <p>Petit résumé du projet...</p>
+          <a href="#" target="_blank">Voir plus</a>
+        </div>
+        <!-- Tu peux copier coller la carte autant de fois que tu veux -->
+      </div>
+      
+  </section>
+
+<!--<section id="competences">
+    <h2>Compétences</h2>
+
+    <h3 id="competences-front">Front-end</h3>
+    <ul><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+  
+    <h3 id="competences-back">Back-end</h3>
+    <ul><li>PHP</li><li>MySQL</li></ul>
+  
+    <h3 id="competences-autres">Autres</h3>
+    <ul><li>Git</li><li>Figma</li></ul>
+  </section> -->
+<!--
+  <section id="competences">
+    <div class="carrousel-container">
+        <h2>Compétences</h2>
+        <div class="carrousel">
+            <div class="competence-slide">
+            <h3>Front-end</h3>
+             <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+             </ul>
+            </div>
+            <div class="competence-slide">
+                <h3>Back-end</h3>
+                <ul>
+                    <li>PHP</li>
+                    <li>MySQL</li>
+                </ul>
+            </div>
+            <div class="competence-slide">
+                <h3>Oiseaux</h3>
+                <ul>
+                    <li>Git</li>
+                    <li>Figma</li>
+                </ul>
+            </div>
+            <div class="competence-slide">
+                <h3>Poisson</h3>
+                <ul>
+                    <li>Git</li>
+                    <li>Figma</li>
+                </ul>
+            </div>
+            <div class="competence-slide">
+                <h3>Autres</h3>
+                <ul>
+                    <li>Git</li>
+                    <li>Figma</li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="carrousel-nav">
+        <span class="nav-dot"></span>
+        <span class="nav-dot"></span>
+        <span class="nav-dot"></span>
+        <span class="nav-dot"></span>
+        <span class="nav-dot"></span>
+         Ajoute autant de billes que tu as de slides 
+        </div>
+  
+        <div class="carrousel-controls">
+      <button id="prev">◀</button>
+      <button id="next">▶</button>
+        </div>
+    </div> -->
+
+  <!-- Pour faire un carrousel : 
+  <div class="carrousel">
+    <div class="competence-slide">HTML</div>
+    <div class="competence-slide">CSS</div>
+    <div class="competence-slide">JavaScript</div>
+    <div class="competence-slide">React</div>
+  </div>-->
+  <section id="competences">
+    <div class="carrousel-container">
+        <h2>Mes Projets</h2>
+        <div class="carrousel">
+            <div class="competence-slide">
+                <a href="SAE_SCOTT.html">
+                    <img src="images/projet2.jpg" alt="Image 1">
+                    <p class="description">Compétence en Front-End avec HTML, CSS, et JavaScript.</p>
+                </a>
+            </div>
+            <div class="competence-slide">
+                <a href="SAE_CAPA.html">
+                    <img src="images/projet2.jpg" alt="Image 2">
+                    <p class="description">Expertise en Back-End avec PHP et MySQL.</p>
+                </a>
+            </div>
+            <div class="competence-slide">
+                <a href="SAE_ROBOT.html">
+                    <img src="images/projet2.jpg" alt="Image 3">
+                    <p class="description">Utilisation des outils comme Git et Figma pour le développement.</p>
+                </a>
+            </div>
+            <div class="competence-slide">
+              <a href="LUMICUBE.html">
+                  <img src="images/projet2.jpg" alt="Image 3">
+                  <p class="description">Utilisation des outils comme Git et Figma pour le développement.</p>
+              </a>
+            </div>
+            <div class="competence-slide">
+              <a href="STAGE.html">
+                <img src="images/projet2.jpg" alt="Image 3">
+                <p class="description">Utilisation des outils comme Git et Figma pour le développement.</p>
+              </a>
+            </div>
+            <div class="competence-slide">
+              <a href="ALTERNANCE.html">
+                <img src="images/projet2.jpg" alt="Image 3">
+                <p class="description">Utilisation des outils comme Git et Figma pour le développement.</p>
+              </a>
+          </div>
+        </div>
+        <div class="carrousel-nav">
+            <span class="nav-dot"></span>
+            <span class="nav-dot"></span>
+            <span class="nav-dot"></span>
+            <span class="nav-dot"></span>
+            <span class="nav-dot"></span>
+            <span class="nav-dot"></span>
+        </div>
+        <div class="carrousel-controls">
+            <button id="prev">◀</button>
+            <button id="next">▶</button>
+        </div>
+    </div>
+</section>
+  
+
+<section id="contact">
+  <h2>Contactez-moi</h2>
+  <form class="form-contact" action="https://formspree.io/f/xanelpyv" method="POST">
+    <label for="nom">Nom</label>
+    <input type="text" id="nom" name="nom" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <button type="submit">Envoyer</button>
+  </form>
+</section>
+  
+
+  <footer>
+    <p>© 2025 Marjorie KOEHL</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
