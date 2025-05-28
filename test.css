@@ -1,0 +1,78 @@
+/* 🎨 Style Global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* 🎨 Menu de Navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background: #333;
+    padding: 10px;
+}
+
+nav ul li {
+    position: relative;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* 🎨 Dropdown */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: white;
+    list-style: none;
+    padding: 5px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* 🎨 Carrousel Swiper */
+.swiper-container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.swiper-slide img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* 🎨 Sections animées */
+.content {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    padding: 40px;
+    text-align: center;
+}
+
+.content.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* 🎨 Formulaire de contact */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+input, textarea, button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1rem;
+}
