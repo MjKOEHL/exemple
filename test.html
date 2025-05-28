@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page d'Accueil</title>
+    
+    <!-- Liens vers Swiper.js et CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+
+    <!-- 🔹 MENU NAVIGATION -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li class="dropdown">
+                    <a href="#">Projets</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Projet 1</a></li>
+                        <li><a href="#">Projet 2</a></li>
+                        <li><a href="#">Projet 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 🔹 CARROUSEL SWIPER -->
+    <section class="swiper-container">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="image1.jpg" alt="Image 1"></div>
+                <div class="swiper-slide"><img src="image2.jpg" alt="Image 2"></div>
+                <div class="swiper-slide"><img src="image3.jpg" alt="Image 3"></div>
+            </div>
+            <!-- Pagination et navigation -->
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+
+    <!-- 🔹 SECTIONS ANIMÉES -->
+    <section class="content">
+        <h2>Bienvenue sur mon site</h2>
+        <p>Découvrez mes projets et services.</p>
+    </section>
+
+    <section class="content">
+        <h2>À propos</h2>
+        <p>Voici un peu d'informations sur moi.</p>
+    </section>
+
+    <!-- 🔹 FORMULAIRE DE CONTACT -->
+    <section id="contact" class="content">
+        <h2>Contactez-moi</h2>
+        <form>
+            <input type="text" id="nom" placeholder="Votre nom">
+            <input type="email" id="email" placeholder="Votre email">
+            <textarea id="message" placeholder="Votre message"></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- 🔹 SCRIPT JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="test.js"></script>
+
+</body>
+</html>
